@@ -1,0 +1,15 @@
+.venv/
+.venv-linux/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+data/
+models/*.onnx
+snapshots/*
+!snapshots/.gitkeep
+authorized_faces/*
+!authorized_faces/.gitkeep
+!authorized_faces/README.md
+frontend/node_modules/
+frontend/dist/
